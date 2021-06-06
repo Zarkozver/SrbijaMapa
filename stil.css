@@ -1,0 +1,69 @@
+﻿body {
+    background-color: gray;
+}
+body#poc{
+    background-image: url("../slike/Mapa2.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+    
+}
+
+img{
+    width: 100px;
+    height: 50px;
+}
+#srb{
+    position: absolute;
+    left: 50%;
+    top:40%;
+}
+#cg {
+    position: absolute;
+    left: 42%;
+    top: 66%;
+}
+#alb {
+    position: absolute;
+    left: 46%;
+    top: 75%;
+}
+#mak {
+    position: absolute;
+    left: 52%;
+    top: 79%;
+}
+#bug {
+    position: absolute;
+    left: 70%;
+    top: 66%;
+}
+#rum {
+    position: absolute;
+    left: 77%;
+    top: 33%;
+}
+#madj {
+    position: absolute;
+    left: 40%;
+    top: 12%;
+}
+#hr {
+    position: absolute;
+    left: 36%;
+    top: 28%;
+}
+#bih {
+    position: absolute;
+    left: 30%;
+    top: 40%;
+}
+#link1 {
+    position: absolute;
+    left: 10%;
+    top: 16%;
+}
+#link2 {
+    position: absolute;
+    left: 2%;
+    top: 16%;
+}

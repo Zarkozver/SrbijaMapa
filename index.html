@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Srbija i njeni susedi</title>
+    <link href="stilovi/stil.css" rel="stylesheet" type="text/css" />
+    <script src="skripte/funkcija.js"></script>
+</head>
+<body id="poc">
+    <h1>Srbija i njeni susedi</h1>
+    <div id="srb">
+        <input type="button" value="srbija" onclick="Podaci('Srbija')" />
+        <img alt="srbija" src="slike/srbija.jpg" onmouseover="Pusti('hsrb')" onmouseout="Zaustavi('hsrb')" />
+    </div>
+    <div id="cg">
+        <input type="button" value="Crna Gora" onclick="Podaci('Crna Gora')" />
+        <img alt="crnagora" src="slike/Crna Gora.png" onmouseover="Pusti('hcg')" onmouseout="Zaustavi('hcg')" />
+    </div>
+    <div id="alb">
+        <input type="button" value="albanija" onclick="Podaci('Albanija')" />
+        <img alt="albanija" src="slike/albanija.png" onmouseover="Pusti('halb')" onmouseout="Zaustavi('halb')" />
+    </div>
+    <div id="mak">
+        <input type="button" value="makedonija" onclick="Podaci('Makedonija')" />
+        <img alt="makedonija" src="slike/Makedonija.png" onmouseover="Pusti('hmak')" onmouseout="Zaustavi('hmak')" />
+    </div>
+    <div id="bug">
+        <input type="button" value="bugarska" onclick="Podaci('Bugarska')" />
+        <img alt="bugarska" src="slike/bugarska.jpg" onmouseover="Pusti('hbug')" onmouseout="Zaustavi('hbug')" />
+    </div>
+    <div id="rum">
+        <input type="button" value="rumunija" onclick="Podaci('Rumunija')" />
+        <img alt="rumunija" src="slike/rumunija.png" onmouseover="Pusti('hrum')" onmouseout="Zaustavi('hrum')" />
+    </div>
+    <div id="madj">
+        <input type="button" value="madjarska" onclick="Podaci('Madjarska')" />
+        <img alt="madjarska" src="slike/madjarska.png" onmouseover="Pusti('hmadj')" onmouseout="Zaustavi('hmadj')" />
+    </div>
+    <div id="hr">
+        <input type="button" value="hrvatska" onclick="Podaci('Hrvatska')" />
+        <img alt="hrvatska" src="slike/hrvatska.jpg" onmouseover="Pusti('hhr')" onmouseout="Zaustavi('hhr')" />
+    </div>
+    <div id="bih">
+        <input type="button" value="Bosna i Hercegovina" onclick="Podaci('Bosna i Hercegovina')" />
+        <img alt="bih" src="slike/bosna.png" onmouseover="Pusti('hbih')" onmouseout="Zaustavi('hbih')" />
+    </div>
+    <audio id="hsrb" src="/himne/srb.mp3"></audio>
+    <audio id="hcg" src="himne/cg.mp3"></audio>
+    <audio id="halb" src="himne/alb.mp3"></audio>
+    <audio id="hbug" src="himne/bug.mp3"></audio>
+    <audio id="hrum" src="himne/rum.mp3"></audio>
+    <audio id="hmadj" src="himne/madj.mp3"></audio>
+    <audio id="hhr" src="himne/hr.mp3"></audio>
+    <audio id="hbih" src="himne/bih.mp3"></audio>
+    <audio id="hmak" src="himne/mak.mp3"></audio>
+    <br />
+    <a id="link1" href="autor.html">O autoru</a>
+    <a id="link2" href="uputstvo.html">Uputstvo</a>
+</body>
+</html>
